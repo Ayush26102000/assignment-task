@@ -24,13 +24,13 @@ const Dashboard = () => {
       <div className="dashboard-content">
 
         <div className="dashboard-metrics">
-          <h1>Metrics </h1>
-          <h2>Test Taken</h2>
-          <h3>Test score : good </h3>
-          <h3>Score rating : Average</h3>
+          <h1 style={{color:'#0e8388',paddingLeft: '0'}}>Metrics </h1>
+          <h2 style={{color:'#2E4F4F',padding:'.5rem 0'}}>Test Taken</h2>
+          <h3 style={{color:'#2E4F4F',padding:'.5rem 0'}}>Test score : good </h3>
+          <h3 style={{color:'#2E4F4F',padding:'.5rem 0'}}>Score rating : Average</h3>
         </div>
         <div className="dashboard-consult">
-          <h1>Book Your Consult</h1>
+          <h1 style={{color:'#0e8388'}}>Book Your Consult</h1>
           <Dropdown className="dashboard-dropdown" options={options} onChange={handleSelect} value={selectedOption} placeholder="Select an option" />
           <input className="dashboard-date" type='date' />
           <button className="dashboard-booknow-btn">Book Now</button>

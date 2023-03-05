@@ -9,9 +9,10 @@ const Login = () => {
 
 
   return (
-    <div style={{display:'flex',alignItems:'center', justifyContent:'center'}} className="animate__animated animate__zoomInRight ">
-    <div className="container">
-      <h1>Login</h1>
+    <div style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center',background:'#2C3333',height:'100vh'}} >
+    <h1 className="animate__animated animate__zoomInRight ">Welcome to the Log in Page</h1>
+    <div className="container animate__animated animate__zoomInRight ">
+      <h1 style={{color:'#0E8388'}}>Login</h1>
       <div className="form ">
         
         <input

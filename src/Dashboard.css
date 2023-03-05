@@ -1,32 +1,41 @@
 .dashboard-container {
-  max-width: 800px;
-  margin: 0 auto;
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
   padding: 20px;
+  height: 94.4vh;
+  background-color: #2C3333;
   
 }
 
 .dashboard-heading {
   text-align: center;
-  padding-bottom: 2rem;
+  padding: 4rem 0;
+}
+
+
+.Dropdown-control,.Dropdown-option,.Dropdown-option.is-selected{
+  color: #0e8388;
 }
 
 .dashboard-content {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .dashboard-metrics,
 .dashboard-consult {
-  background-color: #9e9e9e0c;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #cbe4de;
+  border: 1px solid #cbe4de;
   border-radius: 1rem;
   padding: 2rem;
+  padding-right: 3rem;
   margin-bottom: 2rem;
 }
-
-
 
 .dashboard-dropdown {
   width: 100%;
@@ -41,10 +50,8 @@
 }
 
 .dashboard-booknow-btn {
-  background-color: #313131;
-  color: white;
   padding: 10px 16px;
-  border: none;
+  /* border: none; */
   cursor: pointer;
   width: 100%;
   margin-bottom: 10px;
@@ -52,9 +59,7 @@
 }
 
 .dashboard-booknow-btn:hover {
-  background-color: #9e9e9e0c;
-  border: 1px solid black;
-  color: black;
+  letter-spacing: 0;
 }
 
 h3{
