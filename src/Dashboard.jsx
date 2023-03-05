@@ -19,9 +19,9 @@ const Dashboard = () => {
 
   return (
    
-    <div className="dashboard-container animate__animated animate__zoomInLeft ">
-      <h1 className="dashboard-heading"> Welcome to Dashboard</h1>
-      <div className="dashboard-content">
+    <div className="dashboard-container  ">
+      <h1 className="dashboard-heading  animate__animated animate__zoomInLeft"> Welcome to Dashboard</h1>
+      <div className="dashboard-content animate__animated animate__zoomInLeft">
 
         <div className="dashboard-metrics">
           <h1 style={{color:'#0e8388',paddingLeft: '0'}}>Metrics </h1>
